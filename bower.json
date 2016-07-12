@@ -1,0 +1,17 @@
+{
+  "name": "freecodecamp",
+  "homepage": "https://github.com/daniiltserin/freecodecamp",
+  "authors": [
+    "Daniil <daniilborowkow@yandex.ru>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
