@@ -1,0 +1,22 @@
+nav{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+}
+.nav-menu{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  max-width: 400px;
+}
+.nav-menu > li{
+  flex-grow: 1;
+  text-transform: uppercase;
+  list-style: none;  
+  padding: 10px;
+}
