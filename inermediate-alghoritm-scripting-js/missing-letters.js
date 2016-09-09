@@ -8,5 +8,25 @@
  * 2. String.fromCharCode()
  */
 function fearNotLetter(str) {
-  return str;
+  var abcString = "abcdefghijklmnopqrstuvwxyz";
+  var abcArr = abcString.split('');
+  var strArr = str.split('');
+  var res = '';
+
+  if (strArr[0] !== 'a') {
+    return undefined;
+  }
+
+  for (var i = 0; i < str.length; i++) {
+    switch (strArr[i]) {
+      case abcArr[i]:
+        break;
+      case abcArr[i + 1]:
+        res = abcArr[i];
+        return res;
+        // break;
+    }
+  }
+
+  return res === '' ? undefined : res;
 }
