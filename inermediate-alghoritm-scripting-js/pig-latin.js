@@ -15,5 +15,11 @@
  * 5. String.prototype.split()
  */
 function translatePigLatin(str) {
+  var strOfSib = 'qwrtpsdfghjklmnbvcxz';
+  var arrOfSib = strOfSib.split('');
+  arr = str.split('');
+  for (var i = 0; i < arr.length; i++) {
+    // if 
+  }
   return str;
 }

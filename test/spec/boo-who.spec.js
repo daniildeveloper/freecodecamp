@@ -1,17 +1,17 @@
-describe('Check if a value is classified as a boolean primitive. Return true or false.', function () {
-  it('booWho(true) should return true.', function () {
-    booWho(true).toEqual(true);
+describe('Check if a value is classified as a expect(boolean primitive. Return true or false.', function () {
+  it('expect(booWho(true) should return true.', function () {
+    expect(booWho(true)).toEqual(true);
   });
 
-  it('booWho(false) should return true.', function () {
-    booWho(false).toEqual(true);
+  it('expect(booWho(false) should return true.', function () {
+    expect(booWho(false)).toEqual(true);
   });
 
-  it('booWho([1, 2, 3]) should return false.', function () {
-    booWho([1, 2, 3]).toEqual(false);
+  it('expect(booWho([1, 2, 3]) should return false.', function () {
+    expect(booWho([1, 2, 3])).toEqual(false);
   });
 
-  it('booWho("true") should return false.', function () {
-    booWho("true").toEqual(false);
+  it('expect(booWho("true") should return false.', function () {
+    expect(booWho("true")).toEqual(false);
   });
 });
