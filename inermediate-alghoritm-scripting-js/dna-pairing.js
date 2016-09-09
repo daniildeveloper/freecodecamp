@@ -15,5 +15,23 @@
  */
 
 function pairElement(str) {
-  return str;
+  var res = [];
+  var arr = str.split('');
+  for (var i = 0; i < arr.length; i++) {
+    switch (arr[i]) {
+      case "A":
+        res.push(["A", "T"]);
+        break;
+      case "T":
+        res.push(["T", "A"]);
+        break;
+      case "C":
+        res.push(["C", "G"]);
+        break;
+      case "G":
+        res.push(["G", "C"]);
+        break;
+    }
+  }
+  return res;
 }
