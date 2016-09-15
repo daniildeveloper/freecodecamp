@@ -15,5 +15,18 @@
  */
 
 function myReplace(str, before, after) {
+  var arr = str.split(' ');
+
+  for (var i = 0; i < arr.length; i++) {
+    if (arr[i] == before) {
+      if (before.charCodeAt(0) >= 65) {
+        after.charAt(0).toUpperCase();
+        console.log(after, after.charAt(0).toUpperCase());
+      }
+      arr[i] = after;
+    }
+  }
+
+  str = arr.join(" ");
   return str;
 }
