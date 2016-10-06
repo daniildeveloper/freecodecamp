@@ -20,7 +20,7 @@ function sumPrimes(num) {
     //create an array with prime numbers
     var primes = [];
 
-    for (var i = 0; i < num; i++) {
+    for (var i = 0; i <= num; i++) {
         if (isPrime(i)) {
             primes.push(i);
         }
